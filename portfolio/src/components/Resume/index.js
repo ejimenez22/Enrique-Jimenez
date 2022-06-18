@@ -10,9 +10,9 @@ function Resume() {
         setNumPages(numPages)
     }
     return (
-        <section>
+        <section id="Resume">
             <h1>My Resume</h1>
-            <Document file={'Enrique-Jimenez-Developer-Resume.pdf'} onLoadSuccess={onDocumentLoad}>
+            <Document  className='pdf' file={'Enrique-Jimenez-Developer-Resume.pdf'} onLoadSuccess={onDocumentLoad}>
                 <Page pageNumber={setPageNumber} />
             </Document>
             <p>

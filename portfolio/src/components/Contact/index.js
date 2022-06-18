@@ -2,9 +2,9 @@ import React from 'react'
 
 function Contact() {
     return (
-        <section>
+        <section id='Contact'>
             <h1>Contact</h1>
-            <form id='contact-form'>
+            <form id='contact-form'className='contactFormEntry' >
                 <div>
                     <label htmlFor='name'>Name:</label>
                     <input type='text' name='name'></input>
