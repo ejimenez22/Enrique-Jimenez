@@ -1,0 +1,39 @@
+export const ImageData = [
+    {
+        image:'../src/assets/images/Bootstrap.png'
+    },
+    {
+        image:'../src/assets/images/Bulma.png'
+    },
+    {
+        image:'../src/assets/images/CSS.png'
+    },
+    {
+        image:'../src/assets/images/Git.png'
+    },
+    {
+        image:'../src/assets/images/HTML.png'
+    },
+    {
+        image:'../src/assets/images/Jquery.png'
+    },
+    {
+        image:'../src/assets/images/JS.png'
+    },
+    {
+        image:'../src/assets/images/mongodb.png'
+    },
+    {
+        image:'../src/assets/images/MySQL.png'
+    },
+    {
+        image:'../src/assets/images/Node.png'
+    },
+    {
+        image:'../src/assets/images/React.png'
+    },
+    {
+        image:'../src/assets/images/REST.png'
+    },
+
+]
