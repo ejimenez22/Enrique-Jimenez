@@ -309,3 +309,21 @@ a {
   flex-direction: column;
   align-items: center;
 }
+
+.skills {
+  columns: 4;
+  column-gap: 3rem;
+  margin: auto;
+  padding: auto;
+
+}
+
+.img {
+  margin-top: 3rem;
+  width:  100px;
+  height: 100px;
+}
+
+.portfolio {
+  columns: 3;
+}

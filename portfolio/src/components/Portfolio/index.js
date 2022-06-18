@@ -2,7 +2,7 @@ import React from 'react'
 
 function Portfolio() {
     return (
-        <div className='flex-row'>
+        <div className='portfolio'>
         <section>
             <h1>Portfolio</h1>
            <ul>

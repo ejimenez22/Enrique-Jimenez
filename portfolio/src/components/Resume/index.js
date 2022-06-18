@@ -12,7 +12,7 @@ function Resume() {
     return (
         <section>
             <h1>My Resume</h1>
-            <Document file='Enrique Jimenez Developer Resume.pdf' onLoadSuccess={onDocumentLoad}>
+            <Document file={'Enrique-Jimenez-Developer-Resume.pdf'} onLoadSuccess={onDocumentLoad}>
                 <Page pageNumber={setPageNumber} />
             </Document>
             <p>
@@ -20,42 +20,42 @@ function Resume() {
             </p>
             <div>
                 <h1> My Skills </h1>
-                <ul>
+                <ul className="skills">
                     <li>
-                        <img alt="js" src={require("../../assets/images/JS.png")} />
+                        <img className="img" alt="js" src={require("../../assets/images/JS.png")} />
                     </li>
                     <li>
-                        <img alt="html" src={require("../../assets/images/HTML.png")} />
+                        <img className="img" alt="html" src={require("../../assets/images/HTML.png")} />
                     </li>
                     <li>
-                        <img alt="css" src={require("../../assets/images/CSS.png")} />
+                        <img className="img" alt="css" src={require("../../assets/images/CSS.png")} />
                     </li>
                     <li>
-                        <img alt="Bootstrap" src={require("../../assets/images/Bootstrap.png")} />
+                        <img className="img" alt="Bootstrap" src={require("../../assets/images/Bootstrap.png")} />
                     </li>
                     <li>
-                        <img alt="Bulma" src={require("../../assets/images/Bulma.png")} />
+                        <img className="img" alt="Bulma" src={require("../../assets/images/Bulma.png")} />
                     </li>
                     <li>
-                        <img alt="Git" src={require("../../assets/images/Git.png")} />
+                        <img className="img" alt="Git" src={require("../../assets/images/Git.png")} />
                     </li>
                     <li>
-                        <img alt="jQuery" src={require("../../assets/images/Jquery.png")} />
+                        <img className="img" alt="jQuery" src={require("../../assets/images/Jquery.png")} />
                     </li>
                     <li>
-                        <img alt="mongodb" src={require("../../assets/images/mongodb.png")} />
+                        <img className="img" alt="mongodb" src={require("../../assets/images/mongodb.png")} />
                     </li>
                     <li>
-                        <img alt="MySQL" src={require("../../assets/images/MySQL.png")} />
+                        <img className="img" alt="MySQL" src={require("../../assets/images/MySQL.png")} />
                     </li>
                     <li>
-                        <img alt="Node" src={require("../../assets/images/Node.png")} />
+                        <img className="img" alt="Node" src={require("../../assets/images/Node.png")} />
                     </li>
                     <li>
-                        <img alt="React" src={require("../../assets/images/React.png")} />
+                        <img className="img" alt="React" src={require("../../assets/images/React.png")} />
                     </li>
                     <li>
-                        <img alt="Rest" src={require("../../assets/images/REST.png")} />
+                        <img className="img" alt="Rest" src={require("../../assets/images/REST.png")} />
                     </li>
                 </ul>
             </div>
