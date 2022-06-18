@@ -320,10 +320,21 @@ a {
 
 .img {
   margin-top: 3rem;
-  width:  100px;
-  height: 100px;
+  width:  8rem;
+  height: 8rem;
 }
 
 .portfolio {
   columns: 3;
+  column-gap: 2rem;
+}
+
+.projects {
+  margin-top: 1rem;
+  width: 20rem;
+  height: 15rem;
+}
+
+.projects:hover {
+  opacity: 0.5;
 }
