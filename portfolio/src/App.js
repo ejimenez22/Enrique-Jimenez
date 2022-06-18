@@ -5,7 +5,6 @@ import './index.css'
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
-import { ImageData } from './components/Resume/images';
 
 function App() {
 const [wid, setWid] = useState('0%')
@@ -26,7 +25,7 @@ const closeSidenav = () => {
         <About></About>
         <Portfolio></Portfolio>
         <Contact></Contact>
-        <Resume slide={ImageData}></Resume>
+        <Resume></Resume>
       </main>
     </div>
   );

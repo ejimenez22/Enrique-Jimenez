@@ -1,29 +1,10 @@
 import React, { useState } from "react";
 import { Document, Page } from 'react-pdf'
-import { ImageData } from "./images";
-import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
 
-function Resume(slides) {
+function Resume() {
 
     const [ numPages, setNumPages] = useState(null)
     const [pageNumber, setPageNumber] = useState(1)
-
-    const [currentImage, setCurrentImage] = useState(0)
-    const length = slides.length
-
-    const nextSlide = () => {
-        setCurrentImage(currentImage === length -1 ? 0 : currentImage + 1)
-    }
-
-    const prevSlide = () => {
-        setCurrentImage(currentImage === 0 ? length - 1 : currentImage - 1)
-    }
-
-    if (!Array.isArray(slides) || slides.length <= 0) {
-        return null
-    }
-
-
 
     function onDocumentLoad({numPages}) {
         setNumPages(numPages)
@@ -39,15 +20,44 @@ function Resume(slides) {
             </p>
             <div>
                 <h1> My Skills </h1>
-                <div>
-                    <div className="slider">
-                        <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
-                        <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide}/>
-                    {ImageData.map((slide, index) =>{
-                        <img src={slide.image} alt='skills' className="image"/>
-                    })}
-                    </div>
-                </div>
+                <ul>
+                    <li>
+                        <img alt="js" src={require("../../assets/images/JS.png")} />
+                    </li>
+                    <li>
+                        <img alt="html" src={require("../../assets/images/HTML.png")} />
+                    </li>
+                    <li>
+                        <img alt="css" src={require("../../assets/images/CSS.png")} />
+                    </li>
+                    <li>
+                        <img alt="Bootstrap" src={require("../../assets/images/Bootstrap.png")} />
+                    </li>
+                    <li>
+                        <img alt="Bulma" src={require("../../assets/images/Bulma.png")} />
+                    </li>
+                    <li>
+                        <img alt="Git" src={require("../../assets/images/Git.png")} />
+                    </li>
+                    <li>
+                        <img alt="jQuery" src={require("../../assets/images/Jquery.png")} />
+                    </li>
+                    <li>
+                        <img alt="mongodb" src={require("../../assets/images/mongodb.png")} />
+                    </li>
+                    <li>
+                        <img alt="MySQL" src={require("../../assets/images/MySQL.png")} />
+                    </li>
+                    <li>
+                        <img alt="Node" src={require("../../assets/images/Node.png")} />
+                    </li>
+                    <li>
+                        <img alt="React" src={require("../../assets/images/React.png")} />
+                    </li>
+                    <li>
+                        <img alt="Rest" src={require("../../assets/images/REST.png")} />
+                    </li>
+                </ul>
             </div>
         </section>
     )
