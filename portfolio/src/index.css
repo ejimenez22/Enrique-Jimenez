@@ -307,7 +307,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: left;
-  background-color: #000000;
+  background-color: transparent;
 }
 
 .skills {
