@@ -320,8 +320,8 @@ a {
 
 .img {
   margin-top: 3rem;
-  width:  6rem;
-  height: 6rem;
+  width:  10rem;
+  height: 10rem;
 }
 
 .portfolio {
@@ -331,8 +331,8 @@ a {
 
 .projects {
   margin-top: 1rem;
-  width: 20rem;
-  height: 15rem;
+  width: 35rem;
+  height: 25rem;
 }
 
 .projects:hover {
@@ -363,4 +363,14 @@ a {
 
 .pdf {
   margin-left: 3rem;
+}
+
+.img-port {
+  width: 8.5rem;
+  height: 8.5rem;
+  float: left;
+}
+
+.img-port:hover {
+  opacity: 0.5;
 }
