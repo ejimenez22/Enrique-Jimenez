@@ -34,7 +34,11 @@ function Portfolio() {
             <a href="https://drive.google.com/file/d/1_5ulD2eN590TCQ-2q8JlSlbG4UYVHXO0/view" target="_blank" rel="noopener noreferrer">
                     <img className='projects' src={require("../../assets/projects/OOP.gif")} alt="Object-Oriented-Programming" />
                 </a>
+<<<<<<< HEAD
                  <a href="https://github.com/ejimenez22/Theres-No-I-In-Team" target="_blank" rel="noopener noreferrer">
+=======
+                <a href="https://github.com/ejimenez22/Theres-No-I-In-Team" target="_blank" rel="noopener noreferrer">
+>>>>>>> parent of 7894153 (reverting)
                 <img className="img-port" alt="Git" src={require("../../assets/images/Git.png")} />
                 </a>
             </li>
