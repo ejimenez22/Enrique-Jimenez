@@ -366,13 +366,8 @@ a {
 }
 
 .img-port {
-<<<<<<< HEAD
   width: 6rem;
   height: 6rem;
-=======
-  width: 8.5rem;
-  height: 8.5rem;
->>>>>>> parent of 7894153 (reverting)
   float: left;
 }
 
