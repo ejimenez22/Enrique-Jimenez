@@ -12,7 +12,7 @@ function Resume() {
     return (
         <section id="Resume">
             <h1>My Resume</h1>
-            <Document  className='pdf' file={'Enrique-Jimenez-Developer-Resume.pdf'} onLoadSuccess={onDocumentLoad}>
+            <Document  className='pdf' file={'assets/pdf/Enrique-Jimenez-Developer-Resum.pdf'} onLoadSuccess={onDocumentLoad}>
                 <Page pageNumber={setPageNumber} />
             </Document>
             <p>
