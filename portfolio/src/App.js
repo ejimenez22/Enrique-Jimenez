@@ -25,8 +25,8 @@ const closeSidenav = () => {
       <main>
         <About></About>
         <Portfolio></Portfolio>
-        <Contact></Contact>
         <Resume></Resume>
+        <Contact></Contact>
       </main>
     </div>
   );
