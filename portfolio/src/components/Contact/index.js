@@ -18,7 +18,7 @@ function Contact() {
                 </div>
                 <div>
                     <label htmlFor='message'>Message:</label>
-                    <input rows='5' name='name'></input>
+                    <input rows='10' message='message'></input>
                 </div>
             </form>
         </section>
