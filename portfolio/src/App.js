@@ -6,30 +6,20 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import { FaList } from 'react-icons/fa'
+import { Route, Routes } from 'react-router-dom'
 
 function App() {
-const [wid, setWid] = useState('0%')
-
-const openSideNav = () => {
-  setWid('10%')
-}
-
-const closeSidenav = () => {
-  setWid('0%')
-}
-
   return (
-    <div>
-      <button className='open-btn' onClick={openSideNav}><FaList /></button>
-      <SideNav name='Enrique' width={wid} closeNav={closeSidenav} />
-      <main>
-        <About></About>
-        <Portfolio></Portfolio>
-        <Resume></Resume>
-        <Contact></Contact>
-      </main>
-    </div>
-  );
+    <>
+    <Routes>
+      <Routes path='/' element={<SideNav />} />
+      <Route path='about' element={<About />} />
+      <Route path='/portfolio' element={<Portfolio />} />
+      <Route path='/resume' element={<Resume />} />
+      <Route path='/contact' element={<Contact />} />
+    </Routes>
+    </>
+  )
 }
 
 export default App;
