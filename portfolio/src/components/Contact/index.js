@@ -1,7 +1,10 @@
 import React from 'react'
+import SideNav from '../Nav'
 
 function Contact() {
     return (
+        <>
+        <SideNav />
         <section id='Contact'>
             <h1>Contact</h1>
             <form id='contact-form'className='contactFormEntry' >
@@ -19,6 +22,7 @@ function Contact() {
                 </div>
             </form>
         </section>
+        </>
     )
 }
 

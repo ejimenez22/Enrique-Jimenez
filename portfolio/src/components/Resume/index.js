@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Document, Page } from 'react-pdf'
+import SideNav from "../Nav";
 
 function Resume() {
 
@@ -10,6 +11,8 @@ function Resume() {
         setNumPages(numPages)
     }
     return (
+        <>
+        <SideNav />
         <section id="Resume">
             <h1>My Resume</h1>
             <Document  className='pdf' file={'Enrique+Jimenez+Developer+Resume.pdf'} onLoadSuccess={onDocumentLoad}>
@@ -60,6 +63,7 @@ function Resume() {
                 </ul>
             </div>
         </section>
+        </>
     )
 }
 

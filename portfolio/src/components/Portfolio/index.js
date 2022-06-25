@@ -1,7 +1,10 @@
 import React from 'react'
+import SideNav from '../Nav'
 
 function Portfolio() {
     return (
+        <>
+        <SideNav />
         <div id='Portfolio'>
         <section>
             <h1>Portfolio</h1>
@@ -57,6 +60,7 @@ function Portfolio() {
             </ul>
         </section>
         </div>
+        </>
     )
 }
 
