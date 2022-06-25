@@ -319,6 +319,17 @@ a {
   height: 10rem;
 }
 
+.img-resume {
+  margin-top: 3rem;
+  margin-left: 2rem;
+  width:  10rem;
+  height: 10rem;
+}
+
+.img-resume:hover {
+  opacity: 0.5;
+}
+
 .portfolio {
   align-items: center;
   columns: 3;

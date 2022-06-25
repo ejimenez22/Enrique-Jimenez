@@ -1,26 +1,17 @@
-import React, { useState } from "react";
-import { Document, Page } from 'react-pdf'
+import React from "react";
 import SideNav from "../Nav";
 
 function Resume() {
-
-    const [ numPages, setNumPages] = useState(null)
-    const [pageNumber, setPageNumber] = useState(1)
-
-    function onDocumentLoad({numPages}) {
-        setNumPages(numPages)
-    }
     return (
         <>
         <SideNav />
         <section id="Resume">
             <h1>My Resume</h1>
-            <Document  className='pdf' file={'Enrique+Jimenez+Developer+Resume.pdf'} onLoadSuccess={onDocumentLoad}>
-                <Page pageNumber={setPageNumber} />
-            </Document>
-            <p>
-                Page {pageNumber} of {numPages}
-            </p>
+            <li>
+            <a href="https://docs.google.com/document/d/e/2PACX-1vQQJWBtQYqChRTU08jhuTfv2P9IpKiUVoOJeWViEuWynrD61VMGKDoOs6z18yUWLujJs_u2tCfRhVtg/pub" target="_blank" rel="noopener noreferrer" >
+                <img className="img-resume" alt="resume" src={require('../../assets/images/Resume.png')} />    
+            </a>
+            </li>
             <div>
                 <h1> My Skills </h1>
                 <ul className="skills">
