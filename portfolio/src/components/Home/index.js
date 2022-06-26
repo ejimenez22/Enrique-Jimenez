@@ -6,7 +6,7 @@ import {faNode, faHtml5, faCss3, faReact, faJsSquare, faGithub} from '@fortaweso
 function Home() {
     return (
         <>
-        <SideNav></SideNav>
+        <SideNav />
         <div className="homePage">
             <h1>Enrique Jimenez</h1>
             <h2>Software Engineer</h2>
