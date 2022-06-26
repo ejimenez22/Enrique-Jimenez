@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Enrique-Jimenez/static/css/main.04d8bec7.css",
+    "main.js": "/Enrique-Jimenez/static/js/main.a51eadf1.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Enrique-Jimenez/static/js/787.1ed0c42c.chunk.js",
+    "static/media/OOP.gif": "/Enrique-Jimenez/static/media/OOP.4fc0b3140805a3c7733f.gif",
+    "static/media/ORM.gif": "/Enrique-Jimenez/static/media/ORM.689767011e1d51d634f8.gif",
+    "static/media/JS.png": "/Enrique-Jimenez/static/media/JS.cae65a84867e9d6ad7bf.png",
+    "static/media/Search-watch-chill.png": "/Enrique-Jimenez/static/media/Search-watch-chill.191313e5a51114042430.png",
+    "static/media/REST.png": "/Enrique-Jimenez/static/media/REST.c5618b6df35050c50c2e.png",
+    "static/media/PWA.png": "/Enrique-Jimenez/static/media/PWA.c12aea697a14ca4db10c.png",
+    "static/media/sikester.png": "/Enrique-Jimenez/static/media/sikester.6dc96b81c52b2747c698.png",
+    "static/media/Bulma.png": "/Enrique-Jimenez/static/media/Bulma.25c315bc1726145d4d2d.png",
+    "static/media/Git.png": "/Enrique-Jimenez/static/media/Git.69ffd9cd5a846c976177.png",
+    "static/media/Note-taker.png": "/Enrique-Jimenez/static/media/Note-taker.405f02fbc6827f657745.png",
+    "static/media/Jquery.png": "/Enrique-Jimenez/static/media/Jquery.0909768b510fc537ffb5.png",
+    "static/media/mongodb.png": "/Enrique-Jimenez/static/media/mongodb.78774a02c15c603d5956.png",
+    "static/media/Resume.png": "/Enrique-Jimenez/static/media/Resume.c7ddf3192a85a605276f.png",
+    "index.html": "/Enrique-Jimenez/index.html",
+    "main.04d8bec7.css.map": "/Enrique-Jimenez/static/css/main.04d8bec7.css.map",
+    "main.a51eadf1.js.map": "/Enrique-Jimenez/static/js/main.a51eadf1.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Enrique-Jimenez/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04d8bec7.css",
+    "static/js/main.a51eadf1.js"
+  ]
+}
